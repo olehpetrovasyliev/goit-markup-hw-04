@@ -64,7 +64,7 @@ padding: 0 15px;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .contact-li{
     margin: 0;
@@ -191,6 +191,12 @@ padding: 0 15px;
     padding: 0 auto;
     justify-content: center;
 }
+.sotial-list-footer {
+    display: flex;
+    gap: 16px;
+    padding: 0 auto;
+    justify-content: center;
+}
 .sotial{
     width: calc((100%-3*24px)/4);
     display: flex;
@@ -209,6 +215,7 @@ padding: 0 15px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: var(--color-white);
 }
 .sotial-box-footer{
             background-color: #4D5AE5;
@@ -402,13 +409,12 @@ padding: 0 15px;
     display: inline-block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
+ 
 }
 .teammember-content{
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-right: 16px;
-    padding-left: 16px;
+    
     border: 1px solid #e7e9fc;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -437,7 +443,7 @@ padding: 0 15px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: calc(40 / 36);
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -537,6 +543,7 @@ color: var(--color-dark);
 .portfoliowork{
         text-decoration: none;
         width: calc((100% - 2 * 24px) / 3);
+        display: block;
         
 }
 .portfoliophoto{
@@ -544,7 +551,9 @@ color: var(--color-dark);
 }
 .portfoliowork:hover,
 .portfoliowork:focus{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-work-content{
     border: 1px solid #E7E9FC;
