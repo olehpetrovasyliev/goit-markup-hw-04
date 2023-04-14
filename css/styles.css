@@ -203,6 +203,7 @@ padding: 0 15px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    width: 40px;
 }
 .sotial-list{
     display: flex;
