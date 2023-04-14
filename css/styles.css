@@ -170,6 +170,7 @@ padding: 0 15px;
 
 .footer-content{
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .footer-container{
@@ -177,7 +178,6 @@ padding: 0 15px;
     align-items: baseline;
     flex-wrap: wrap;
     margin-left: 156px;
-    gap: 120px;
 }
 
 .sotial-list{
