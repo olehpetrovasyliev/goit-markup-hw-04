@@ -303,9 +303,14 @@ background-color: #31D0AA;
     width: calc((100% - 3 * 24px) / 4);
 }
 .benefit-vector-box{
-    padding: 24px 120px;
         margin-bottom: 8px;
-       
+        display: flex;
+        justify-content: center;
+        align-content: center;
+       padding-top: 24px;
+       padding-bottom: 24px;
+       padding-right: auto;
+       padding-left: auto;
 }
 
 
