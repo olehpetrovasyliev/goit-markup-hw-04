@@ -454,7 +454,7 @@ color: var(--color-dark);
     padding: 15px 31px;
         border: 1px solid #8E8F99;
         border-radius: 4px;
-        color:#8e8f99;
+        color:var(--color-subtle-text);
         display: flex;
         align-items: center;
         justify-content: center;
