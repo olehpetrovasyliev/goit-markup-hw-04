@@ -90,7 +90,6 @@ padding: 0 15px;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(24/16);
-        text-decoration: underline;
         color:var(--color-pressed);
         letter-spacing: 0.02em;
 }
@@ -177,7 +176,6 @@ padding: 0 15px;
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    margin-left: 156px;
 }
 
 .sotial-list{
@@ -254,7 +252,7 @@ padding: 0 15px;
     max-width: 1440px;
     padding: 188px 0;
     margin: 0 auto;
-    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-position:50% 50%;
  background-size: cover;
  background-repeat: no-repeat;
@@ -317,10 +315,6 @@ padding: 0 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-       padding-top: 24px;
-       padding-bottom: 24px;
-       padding-right: auto;
-       padding-left: auto;
     background-color: #f4f4fd;
     border-radius: 4px;
 }
