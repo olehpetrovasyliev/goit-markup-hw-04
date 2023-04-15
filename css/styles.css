@@ -169,14 +169,15 @@ padding: 0 15px;
 
 .footer-content{
     max-width: 264px;
-
+    margin-right: 120px
 }
 
 .footer-container{
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    gap: 120px;
+  
+    
 }
 
 
@@ -319,6 +320,7 @@ padding: 0 15px;
         align-items: center;
     background-color: #f4f4fd;
     border-radius: 4px;
+    height: 112px;
 }
 
 
@@ -452,7 +454,7 @@ color: var(--color-dark);
     padding: 15px 31px;
         border: 1px solid #8E8F99;
         border-radius: 4px;
-        color:#afb1b8;
+        color:#8e8f99;
         display: flex;
         align-items: center;
         justify-content: center;
