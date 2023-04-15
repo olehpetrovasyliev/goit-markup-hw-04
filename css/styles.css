@@ -169,14 +169,16 @@ padding: 0 15px;
 
 .footer-content{
     max-width: 264px;
-margin-right: 120px;
+
 }
 
 .footer-container{
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+    gap: 120px;
 }
+
 
 .sotial-list{
     display: flex;
